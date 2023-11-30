@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="font_4353671_3ar2c6tt0gv/iconfont.css">
+    <script>
+        function count()
+        {var time=document.getElementById("time")
+if(time.innerHTML==0)
+{
+    window.location.href="https://www.yuanshen.com/";
+
+}
+else{
+    time.innerHTML=time.innerHTML-1;
+}
+        }
+        window.setInterval("count()",1000)
+    </script>
+    <style>
+
+#time{
+    font-size: 100px;
+    text-align: center;
+}
+
+div:nth-child(1)
+{position:absolute;
+    top: 0%;
+    left: 30%;
+    height: 1060px;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+div:nth-child(2)
+{
+position:absolute;
+    top: 0%;
+    left: 30%;
+    height: 1060px;
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+dis:nth-child(1)
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+dis:nth-child(2)
+{
+ text-align: center;
+}
+dis:nth-child(3)
+{height: 400px;
+    width:400px;
+    margin: 0 auto;
+}
+dis:nth-child(4)
+{ width:400px;
+ text-align: center;
+ margin: 0 auto;
+}
+dis:nth-child(5)
+{
+ text-align: center;
+}
+dis:nth-child(6)
+{ 
+    height: 10px;
+    width: 50px;
+ text-align: center;
+}
+span:nth-child(1)
+{
+    width: 150px;
+    height: 200px;
+   text-align: center;
+}
+span:nth-child(2)
+{color: white;
+    flex: 1;
+    font-family: [Lato];
+  text-align: center;
+  font-size: 30px;
+}
+span:nth-child(3)
+{
+    width: 150px;
+    height: 200px;
+    text-align: center;
+}
+.p1{
+    font-family: [Lato];
+    color: white;
+    font-size: 25px;
+    
+}
+p2{
+    font-family: [Lato];
+    color:#3cffb5;
+    font-size: 25px;
+    
+}
+p3{
+    font-family: [Lato];
+    color:#6d6a9d;
+    font-size: 40px;
+    
+}
+  .search-box {
+         
+            height: 60px;
+            width: 400px;
+            border-radius: 20px;
+            background-color: #f2f2f2;
+            padding: 5px;
+            margin: 0 auto;
+            
+        }
+    </style>
+</head>
+<body>
+     <div>
+    <img src="Background.png">
+      </div> 
+
+
+<div>
+<dis>
+<span><img src="Back.png" alt=""></span>
+<span>sign up</span>
+<span><img src="Info.png" alt=""></span>
+
+
+</dis>
+<dis>
+    <img src="Photo.png">
+</dis>
+<dis>
+<p class="p1">First Name</p>
+<hr >
+<p class="p1">Last Name</p>
+<hr>
+<p class="p1">Email Address</p>
+<hr>
+<p class="p1">Password &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<p2> show</p2></p>
+
+</dis>
+
+<button class="search-box">
+   <p3>Sign Up</p3>
+</button>
+<dis>
+    <p class="p1">Allready a member? <p2>Sign In</p2></p>
+</dis>
+<dis><span class="iconfont">&#xe624;</span>></dis>
+<p id="time"> 5</p>
+</div>
+</body>
+</html>
